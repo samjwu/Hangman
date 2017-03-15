@@ -2,3 +2,14 @@ computer
 engineering
 hangman
 python
+jazz
+axiom
+blitz
+megahertz
+inductor
+capacitor
+bevel
+programming
+coding
+development
+application
