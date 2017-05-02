@@ -7,7 +7,19 @@ import random
 # answer = getpass.getpass()
 # answer = answer.lower()
 
-lines = open("words.txt").read()
+print("Enter a number to select the difficulty:")
+print("Easy - 1")
+print("Normal - 2")
+print("Hard - 3")
+gamemode = input()
+
+if int(gamemode) == 1:
+    lines = open("easy.txt").read()
+elif int(gamemode) == 2:
+    lines = open("words.txt").read()
+else:
+    lines = open("hard.txt").read()
+
 string = lines[0:]
 words = string.split()
 answer = random.choice(words)
