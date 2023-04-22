@@ -1,5 +1,8 @@
 # Hangman
-A simple hangman game made using Python played in the terminal
+
+![hangman](hangman.jpg)
+
+A simple hangman game played in the terminal programmed in Python.
 
 How to Play:
 Guess letters to fill in the blanks and reveal the hidden word.
